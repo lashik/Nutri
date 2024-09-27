@@ -1,0 +1,205 @@
+@use "../utils" as *;
+@use "../global" as *;
+
+.section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_box11 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 49px auto 0;
+  width: 100%;
+  max-width: 1440px;
+  outline: 1px solid rgb(255 255 255);
+  outline-offset: -1px;
+  filter: drop-shadow(0 0 1px rgb(23 26 31 / 7%));
+}
+
+.group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.color3 {
+  position: relative;
+  min-height: 74px;
+  background-color: rgb(0 0 0);
+}
+
+.image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+}
+
+.text {
+  position: absolute;
+  inset: 25px 956px 27px 445px;
+  width: 39px;
+  max-width: 85%;
+  height: 22px;
+  font: 700 14px/1.57 Inter, Helvetica, Arial, serif;
+  color: rgb(255 255 255);
+
+  @include md {
+    right: 0;
+    left: 0;
+  }
+}
+
+.text1 {
+  position: absolute;
+  inset: 25px 731px 27px 643px;
+  width: 66px;
+  max-width: 85%;
+  height: 22px;
+  font: 700 14px/1.57 Inter, Helvetica, Arial, serif;
+  color: rgb(255 255 255);
+
+  @include xl {
+    right: 0;
+    left: 0;
+  }
+}
+
+.text2 {
+  position: absolute;
+  inset: 25px 500px 27px 875px;
+  display: flex;
+  justify-content: center;
+  width: 65px;
+  max-width: 85%;
+  height: 22px;
+  font: 700 14px/1.57 Inter, Helvetica, Arial, serif;
+  color: rgb(255 255 255);
+  text-align: center;
+
+  @include md {
+    right: 32px;
+    left: 32px;
+  }
+
+  @include sm {
+    right: 0;
+    left: 0;
+  }
+}
+
+.btn {
+  position: absolute;
+  inset: 13px 203px 12px 1144px;
+  display: flex;
+  justify-content: center;
+  width: 93px;
+  height: 49px;
+  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  color: rgb(3 3 3);
+  text-align: center;
+  background-color: rgb(30 144 255);
+  border-radius: 12px;
+  padding: 12.5px 18px;
+  outline: 1px solid rgb(255 255 255);
+  outline-offset: -1px;
+}
+
+.btn1 {
+  position: absolute;
+  inset: 13px 66px 12px 1245px;
+  display: flex;
+  justify-content: center;
+  width: 129px;
+  height: 49px;
+  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  color: rgb(3 3 3);
+  text-align: center;
+  background-color: rgb(244 225 224);
+  border-radius: 10px;
+  padding: 12.5px 2px;
+  letter-spacing: -0.1px;
+}
+
+.medium_title {
+  position: absolute;
+  inset: 18px 1105px 18px 87px;
+  width: 248px;
+  max-width: 85%;
+  height: 38px;
+  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
+  color: rgb(255 255 255);
+
+  @include md {
+    right: 32px;
+    left: 32px;
+    align-items: flex-start;
+    font-size: 24px;
+  }
+
+  @include xs {
+    right: 16px;
+    left: 16px;
+  }
+
+  @include xxs {
+    font-size: 20px;
+  }
+
+  @include tn {
+    right: 8px;
+    left: 8px;
+  }
+}
+
+.color5 {
+  position: absolute;
+  inset: 59px 915px 12px 405px;
+  display: none;
+  width: 120px;
+  height: 52px;
+  background-color: rgb(0 0 0 / 0%);
+  border-radius: 4px;
+}
+
+.color4 {
+  position: absolute;
+  inset: 59px 693px 12px 605px;
+  display: none;
+  width: 142px;
+  height: 52px;
+  min-height: 52px;
+}
+
+.group1 {
+  position: absolute;
+  top: 0;
+  bottom: 74px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  transform: translate(-50%, 0);
+}
+
+.color1 {
+  position: relative;
+  min-height: 49px;
+  background-color: rgb(30 144 255);
+  outline: 1px solid rgb(0 0 0);
+  box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
+}
+
+.highlight {
+  position: absolute;
+  top: 14px;
+  left: 574px;
+  width: 205px;
+  height: 24px;
+  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  color: rgb(34 3 52);
+  letter-spacing: -0.1px;
+}
