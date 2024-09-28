@@ -11,7 +11,7 @@
   flex-direction: column;
   gap: 77px 0;
   margin: 0 24px 35px 29px;
-  max-width: 1405px;
+  max-width: 100%;
 
   @include xs {
     margin: 0 16px 35px;
@@ -473,7 +473,8 @@
 .btn {
   display: flex;
   justify-content: center;
-  margin: 0 0 0 2.99%;
+  margin: 0 0 0 40%;
+  left: 50%;
   width: 368px;
   max-width: 100%;
   font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
