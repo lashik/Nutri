@@ -81,8 +81,8 @@ function renderSection4(props) {
                         alt="alt text"
                       />
                       <img
-                        className={section4Styles.image16}
-                        src={'/assets/cb2b4bfa24d79942dbd58e1743de249b.png'}
+                        className={section4Styles.image14}
+                        src={'/assets/d41e0fc56433629b440c6ed01e7b59d2.svg'}
                         alt="alt text"
                       />
                     </div>
@@ -130,7 +130,7 @@ function renderSection4(props) {
                       />
                       <img
                         className={section4Styles.image11}
-                        src={'/assets/92445561b119caf68dc71d722d082356.png'}
+                        src={'/assets/bada839f09066cf7a74ae309dd022a0b.svg'}
                         alt="alt text"
                       />
                     </div>

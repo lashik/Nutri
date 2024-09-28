@@ -22,25 +22,52 @@
 
   .carouselPrev,
   .carouselNext {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgb(65, 10, 96);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 4px;
-    z-index: 2;
-    transition: background-color 0.3s ease;
+      cursor: pointer;
+      position:absolute;
+      display:block;
+      margin: 50px 0 0 50px;
+      width:50px;
+      height: 50px;
+      border: solid 6px rgb(255 241 122);
+      border-radius: 100%;
+      z-index: 1;
+      transition: all .2s linear;
+      &:before, &:after{
+        content:"";
+        position: absolute;
+        width:35%;
+        height: 10%;
+        top:41%;
+        left:55%;
+        background: rgb(255 241 122);
+        z-index: 2;
+        transform: translate(-50%, -50%) rotate(45deg);
+        transition: all .2s linear;
+      }
+      &:after{
+        z-index: 3;
+        top:59%;
+        left:55%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+      &:hover{
+        border: solid 8px #777;
+        &:after, &:before{
+          background: #777;
+        }
+      }
+      &:active{
+        border: solid 8px #111;
+        &:after, &:before{
+          background: #111;
+        }
+      }
     
-    &:hover {
-      background-color: rgb(85, 30, 116);
-    }
   }
 
   .carouselPrev {
-    left: 10px;
+    left: 5px;
+    rotate: 180deg;
   }
 
   .carouselNext {

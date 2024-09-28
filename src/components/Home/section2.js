@@ -31,10 +31,10 @@ const Carousel = () => {
       </div>
 
       <button className={section2Styles.carouselPrev} onClick={goToPrevious}>
-        Previous
+        
       </button>
       <button className={section2Styles.carouselNext} onClick={goToNext}>
-        Next
+        
       </button>
     </div>
   );
