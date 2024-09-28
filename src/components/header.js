@@ -1,26 +1,35 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import section1Styles from './header.module.scss';
+import styled from 'styled-components';
+const CustomLink = styled(Link)`
+  color: inherit;
+  text-decoration: none;
 
-import section1Styles from './section1.module.scss';
-
-function renderSection1(props) {
+  
+`;
+function header(props) {
   return (
     <section className={section1Styles.section1}>
       <div className={section1Styles.content_box11}>
         <div className={section1Styles.group}>
           <div className={section1Styles.color3} />
-          <img className={section1Styles.image} src={'/assets/54b774c58bb6bb7c96b8106a4af8626e.png'} alt="alt text" />
-          <div className={section1Styles.text}>Clinic</div>
+          
+          <CustomLink to="/"><img className={section1Styles.image} src={'/assets/54b774c58bb6bb7c96b8106a4af8626e.png'} alt="alt text" /></CustomLink>
+          <div className={section1Styles.text}><CustomLink to="/booknow">Clinic</CustomLink></div>
           <div className={section1Styles.text1}>Expertise</div>
-          <div className={section1Styles.text2}>Engaging</div>
+          <div className={section1Styles.text2}><CustomLink to="/blog">Engaging</CustomLink></div>
           <button className={section1Styles.btn}>
             {/* TODO */}
             SIGN IN
           </button>
+          <CustomLink to ="/aboutme">
           <button className={section1Styles.btn1}>
             {/* TODO */}
             DISCOVER MORE
           </button>
-          <h2 className={section1Styles.medium_title}>The Nutri Navigator</h2>
+          </CustomLink>
+          <CustomLink to ="/"><h2 className={section1Styles.medium_title}>The Nutri Navigator</h2></CustomLink>
         </div>
       </div>
 
@@ -32,7 +41,8 @@ function renderSection1(props) {
         <p className={section1Styles.highlight}>Explore 27 years of expertise</p>
       </div>
     </section>
+    
   );
 }
 
-export default renderSection1;
+export default header;

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import section5Styles from './section5.module.scss';
+import section5Styles from './footer.module.scss';
 
-function renderSection5(props) {
+function Footer() {
   return (
     <section className={section5Styles.section5}>
       <div className={section5Styles.flex_col}>
@@ -51,4 +51,4 @@ function renderSection5(props) {
   );
 }
 
-export default renderSection5;
+export default Footer;
