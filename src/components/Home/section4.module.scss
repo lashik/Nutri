@@ -4,26 +4,26 @@
 .section4 {
   display: flex;
   flex-direction: column;
+  background-color: #F3F4F6;
 }
 
 .content_box9 {
   display: flex;
   flex-direction: column;
   margin: 0 3px 0 0;
-  max-width: 1437px;
-  background-color: rgb(255 255 255);
-  outline: 1px solid rgb(255 255 255);
-  outline-offset: -1px;
-  box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
+  // max-width: 1437px;
+  background-color: #F3F4F6;
+  
+  
 }
 
 .flex_col {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 72px 0;
+  gap: 10px 0;
   margin: 97px auto 87px;
-  width: 91.44%;
+  width: 100%;
 
   @include xs {
     margin: 80px auto;
@@ -54,13 +54,13 @@
 
 .flex_row {
   display: flex;
-  gap: 0 19px;
+  gap: 0 15%;
   width: 100%;
-
+  margin-left:  100px;
   @include lg {
     flex-direction: column;
     align-items: center;
-    gap: 30px 19px;
+    gap: 100px 19%;
   }
 }
 
@@ -68,7 +68,8 @@
   display: flex;
   flex-direction: column;
   width: 425px;
-  min-width: 0;
+  min-width: 10%;
+  max-width: 425px;
   background-color: rgb(255 241 122);
   border-radius: 32px;
   outline: 1px solid rgb(255 255 255);
@@ -84,7 +85,7 @@
 .flex_row1 {
   display: flex;
   justify-content: space-between;
-  gap: 0 10px;
+  gap: 0 8px;
   margin: 39px 27px 28px 24px;
 
   @include xs {
@@ -100,14 +101,14 @@
 .flex_col1 {
   display: flex;
   flex-direction: column;
-  width: 218px;
+   width: 218px;
   min-width: 0;
 }
 
 .medium_title4 {
   margin: 0 0 0 9px;
   width: 148px;
-  max-width: 85%;
+  max-width: 100%;
   font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
   color: rgb(39 35 41);
 
@@ -127,7 +128,7 @@
 
 .flex_row2 {
   display: flex;
-  gap: 0 8px;
+  gap: 0 0.5%;
   margin: 33px 0 0 8px;
 }
 
@@ -235,8 +236,9 @@
 .content_box7 {
   display: flex;
   flex-direction: column;
-  width: 425px;
-  min-width: 0;
+  // width: 425px;
+  min-width: 10%;
+  max-width: 425px;
   background-color: rgb(255 241 122);
   border-radius: 34px;
   outline: 1px solid rgb(255 255 255);
@@ -252,7 +254,7 @@
 .flex_row3 {
   display: flex;
   justify-content: space-between;
-  gap: 0 10px;
+  gap: 0 8px;
   margin: 39px 27px 28px 25px;
 
   @include xs {
@@ -260,7 +262,7 @@
   }
 
   @include tn {
-    column-gap: 8px;
+    column-gap: 0.5%;
     margin: 39px 8px 28px;
   }
 }
@@ -289,7 +291,7 @@
 
 .flex_row4 {
   display: flex;
-  gap: 0 7px;
+  gap: 0 0.5%;
   margin: 33px 4px 0;
 }
 
@@ -322,14 +324,14 @@
 .flex_col6 {
   display: flex;
   flex-direction: column;
-  gap: 12px 0;
+  gap: 0.5% 0;
   width: 218px;
   min-width: 0;
 }
 
 .highlight102 {
   width: 175.984375px;
-  max-width: 85%;
+   max-width: 100%;
   font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
   color: rgb(72 66 77);
 }
@@ -377,7 +379,8 @@
   display: flex;
   flex-direction: column;
   width: 426px;
-  min-width: 0;
+  min-width: 10%;
+  max-width: 425px;
   background-color: rgb(255 241 122);
   border-radius: 32px;
   outline: 1px solid rgb(255 255 255);
@@ -393,7 +396,7 @@
 .flex_row5 {
   display: flex;
   justify-content: space-between;
-  gap: 0 10px;
+  gap: 0 0.5%;
   margin: 44px 38px 28px 24px;
 
   @include md {
@@ -405,7 +408,7 @@
   }
 
   @include tn {
-    column-gap: 8px;
+    column-gap: 0.5%;
     margin: 44px 8px 28px;
   }
 }
@@ -434,7 +437,7 @@
 
 .flex_row6 {
   display: flex;
-  gap: 0 6px;
+  gap: 0 0.5%;
   margin: 66px 0 0 9px;
 
   @include tn {
@@ -445,7 +448,7 @@
 .flex_col8 {
   display: flex;
   flex-direction: column;
-  gap: 3px 0;
+  gap: 0.5% 0;
   width: 24px;
 }
 

@@ -43,6 +43,8 @@ function App() {
 
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/Untitled" component={UntitledPage} />
+        <Route exact path="/Aboutme" component={Aboutme} />
       </Switch>
     </Router>
   );

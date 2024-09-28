@@ -1,22 +1,22 @@
 @use "../utils" as *;
 @use "../global" as *;
 
-.section3 {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 1px;
+.section5 {
+  position: relative;
+  margin: 0 0 3px;
+  min-height: 545px;
 }
 
 .flex_col {
+  position: absolute;
+  top: 13px;
+  left: 3px;
   display: flex;
   flex-direction: column;
-  gap: 1px 0;
-  margin: 0 auto;
-  width: 99.86%;
-  max-width: 1456px;
+  width: 100%;
 }
 
-.content_box8 {
+.block1 {
   display: flex;
   flex-direction: column;
   background-color: rgb(255 255 255);
@@ -28,8 +28,8 @@
   flex-direction: column;
   gap: 11px 0;
   margin: 52px 0 133px 3.57%;
-  width: 1038.953125px;
-  max-width: 85%;
+  width: 1040.015625px;
+   max-width: 100%;
 
   @include xs {
     margin: 52px 0 80px 3.57%;
@@ -44,90 +44,72 @@
   display: flex;
   justify-content: space-between;
   gap: 0 10px;
-  width: 87.97%;
-
-  @include md {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px 10px;
-  }
-}
-
-.highlight3 {
-  margin: 0 0 1px;
-  font: 700 16px/1.62 Inter, Helvetica, Arial, serif;
-  color: rgb(48 48 48);
-  letter-spacing: -0.1px;
-
-  @include md {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.highlight4 {
-  margin: 2px 0 1px;
-  font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
-  color: rgb(48 48 48);
-
-  @include md {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.highlight41 {
-  margin: 3px 0 0;
-  font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
-  color: rgb(48 48 48);
-
-  @include md {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.highlight42 {
-  margin: 3px 0 0;
-  font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
-  color: rgb(48 48 48);
-  letter-spacing: -0.1px;
-
-  @include md {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-.flex_row1 {
-  display: flex;
-  justify-content: space-between;
-  gap: 0 10px;
-  margin: 0 0 0 auto;
-  width: 697px;
-  max-width: 85%;
+  width: 87.88%;
 
   @include tn {
     column-gap: 8px;
   }
 }
 
-.highlight2 {
-  margin: 1px 0 0;
-  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
-  color: rgb(107 107 107);
-}
-
-.highlight21 {
+.highlight15 {
   margin: 0 0 1px;
-  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  width: 245px;
+  font: 700 16px/1.62 Inter, Helvetica, Arial, serif;
+  color: rgb(48 48 48);
+}
+
+.highlight16 {
+  margin: 2px 0 1px;
+  width: 116px;
+  font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
+  color: rgb(48 48 48);
+}
+
+.highlight161 {
+  margin: 3px 0 0;
+  width: 83px;
+  font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
+  color: rgb(48 48 48);
+}
+
+.highlight162 {
+  margin: 3px 0 0;
+  width: 124px;
+  font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
+  color: rgb(48 48 48);
+}
+
+.flex_row1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px; 
+  margin: 0 0 0 auto;
+  width: 698px;
+   max-width: 100%;
+
+  @include tn {
+    column-gap: 8px;
+  }
+}
+
+.highlight14 {
+  margin: 1px 0 0;
+  width: 156px;
+  font: 16px/1.62 Inter, Helvetica, Arial, serif;
   color: rgb(107 107 107);
 }
 
-.content_box9 {
+.highlight141 {
+  margin: 0 0 1px;
+  width: 252px;
+  font: 16px/1.62 Inter, Helvetica, Arial, serif;
+  color: rgb(107 107 107);
+}
+
+.content_box10 {
   display: flex;
   flex-direction: column;
-  margin: 0 19px 0 0;
+  margin: 0 0 0 0;
   background-color: rgb(255 255 255);
   outline: 1px solid rgb(244 244 244);
   outline-offset: -1px;
@@ -145,12 +127,12 @@
 .flex_col2 {
   display: flex;
   flex-direction: column;
-  margin: 43px 0 47px 3.27%;
-  width: 356px;
-  max-width: 85%;
+  margin: 43px 0 47px 3.28%;
+  width: 357px;
+  max-width: 100%;
 }
 
-.medium_title2 {
+.medium_title5 {
   margin: 0 2px;
   font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
   color: rgb(48 48 48);
@@ -176,8 +158,15 @@
   }
 }
 
-.highlight5 {
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+.highlight17 {
+  width: 66px;
+  font: 15px/1.6 Inter, Helvetica, Arial, serif;
+  color: rgb(59 59 59);
+}
+
+.highlight171 {
+  width: 80px;
+  font: 15px/1.6 Inter, Helvetica, Arial, serif;
   color: rgb(59 59 59);
 }
 
@@ -197,13 +186,13 @@
   }
 }
 
-.image2 {
+.image19 {
   width: 25px;
   border-radius: 4px;
   object-fit: cover;
 }
 
-.image3 {
+.image20 {
   margin: 2px 0 0;
   width: 26px;
   border-radius: 4px;

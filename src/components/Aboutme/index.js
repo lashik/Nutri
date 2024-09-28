@@ -5,7 +5,7 @@ import cn from 'classnames';
 import renderSection1 from './section1';
 import renderSection2 from './section2';
 import renderSection3 from './section3';
-import renderSection4 from './section4';
+import renderSection4 from './section5';
 
 import styles from './index.module.scss';
 

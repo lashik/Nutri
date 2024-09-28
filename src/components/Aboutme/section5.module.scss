@@ -1,20 +1,19 @@
 @use "../utils" as *;
 @use "../global" as *;
 
-.section4 {
+.section5 {
   position: relative;
-  margin: 0 0 8px;
-  min-height: 525px;
+  margin: 0 0 3px;
+  min-height: 545px;
 }
 
 .flex_col {
   position: absolute;
-  top: -2px;
-  left: 0;
+  top: 13px;
+  left: 3px;
   display: flex;
   flex-direction: column;
-  gap: 43px 0;
-  width: 1456px;
+  width: 100%;
 }
 
 .block1 {
@@ -30,7 +29,7 @@
   gap: 11px 0;
   margin: 52px 0 133px 3.57%;
   width: 1040.015625px;
-  max-width: 85%;
+   max-width: 100%;
 
   @include xs {
     margin: 52px 0 80px 3.57%;
@@ -52,28 +51,28 @@
   }
 }
 
-.highlight9 {
+.highlight15 {
   margin: 0 0 1px;
   width: 245px;
   font: 700 16px/1.62 Inter, Helvetica, Arial, serif;
   color: rgb(48 48 48);
 }
 
-.highlight10 {
+.highlight16 {
   margin: 2px 0 1px;
   width: 116px;
   font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
   color: rgb(48 48 48);
 }
 
-.highlight101 {
+.highlight161 {
   margin: 3px 0 0;
   width: 83px;
   font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
   color: rgb(48 48 48);
 }
 
-.highlight102 {
+.highlight162 {
   margin: 3px 0 0;
   width: 124px;
   font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
@@ -83,40 +82,58 @@
 .flex_row1 {
   display: flex;
   justify-content: space-between;
-  gap: 0 10px;
+  gap: 0 10px; 
   margin: 0 0 0 auto;
   width: 698px;
-  max-width: 85%;
+   max-width: 100%;
 
   @include tn {
     column-gap: 8px;
   }
 }
 
-.highlight8 {
+.highlight14 {
   margin: 1px 0 0;
   width: 156px;
   font: 16px/1.62 Inter, Helvetica, Arial, serif;
   color: rgb(107 107 107);
 }
 
-.highlight81 {
+.highlight141 {
   margin: 0 0 1px;
   width: 252px;
   font: 16px/1.62 Inter, Helvetica, Arial, serif;
   color: rgb(107 107 107);
 }
 
+.content_box10 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  background-color: rgb(255 255 255);
+  outline: 1px solid rgb(244 244 244);
+  outline-offset: -1px;
+  box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
+
+  @include xs {
+    margin: 0 16px 0 0;
+  }
+
+  @include tn {
+    margin: 0 8px 0 0;
+  }
+}
+
 .flex_col2 {
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 3.23%;
+  margin: 43px 0 47px 3.28%;
   width: 357px;
-  max-width: 85%;
+  max-width: 100%;
 }
 
 .medium_title5 {
-  margin: 0 0 0 2px;
+  margin: 0 2px;
   font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
   color: rgb(48 48 48);
 
@@ -141,13 +158,13 @@
   }
 }
 
-.highlight11 {
+.highlight17 {
   width: 66px;
   font: 15px/1.6 Inter, Helvetica, Arial, serif;
   color: rgb(59 59 59);
 }
 
-.highlight111 {
+.highlight171 {
   width: 80px;
   font: 15px/1.6 Inter, Helvetica, Arial, serif;
   color: rgb(59 59 59);
@@ -169,26 +186,15 @@
   }
 }
 
-.image11 {
+.image19 {
   width: 25px;
   border-radius: 4px;
   object-fit: cover;
 }
 
-.image12 {
+.image20 {
   margin: 2px 0 0;
   width: 26px;
   border-radius: 4px;
   object-fit: cover;
-}
-
-.background {
-  position: absolute;
-  inset: 248px 2px -2px 0;
-  width: 1456px;
-  height: 279px;
-  background-color: rgb(255 255 255);
-  outline: 1px solid rgb(244 244 244);
-  outline-offset: -1px;
-  box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
 }

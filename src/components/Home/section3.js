@@ -22,7 +22,11 @@ function renderSection3(props) {
             </div>
 
             <div className={section3Styles.wrapper3} />
-
+            <img
+              className={section3Styles.image3}
+              src={'/assets/Mediamodifier-Design (3).svg'}
+              alt="alt text"
+            />
             <div className={section3Styles.flex_col2}>
               <p className={section3Styles.highlight51}>Healthy Sleep Habits</p>
               <p className={section3Styles.highlight4}>
