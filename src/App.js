@@ -4,7 +4,7 @@ import Home from './components/Home';
 import AOS from 'aos';
 import { isMobile } from 'react-device-detect';
 import Aboutme from 'components/Aboutme';
-import UntitledPage from 'components/UntitledPage';
+import Booknow from 'components/Booknow';
 import Blog from 'components/Blog';
 import 'aos/dist/aos.css';
 import './fonts.css';
@@ -33,7 +33,7 @@ function App() {
           </div>
           <div>
             pxCode Screen List: <br />
-            <Link to="/Untitled">aboutme</Link>
+            <Link to="/Booknow">aboutme</Link>
           </div>
           <div>
             pxCode Screen List: <br />
@@ -43,7 +43,7 @@ function App() {
 
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Blog" component={Blog} />
-        <Route exact path="/Untitled" component={UntitledPage} />
+        <Route exact path="/Booknow" component={Booknow} />
         <Route exact path="/Aboutme" component={Aboutme} />
       </Switch>
     </Router>
