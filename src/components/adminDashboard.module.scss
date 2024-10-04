@@ -1,0 +1,57 @@
+// src/components/AdminDashboard/adminDashboard.module.scss
+.dashboardContainer {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebarItem {
+    margin-bottom: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebarItem:hover {
+    color: #f5f5f5;
+  }
+  
+  .mainContent {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cardContent {
+    font-size: 16px;
+    color: #666;
+  }
+  

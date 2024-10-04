@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as  Link } from 'react-router-dom';
 import section1Styles from './header.module.scss';
 import styled from 'styled-components';
 const CustomLink = styled(Link)`
@@ -20,8 +20,10 @@ function header(props) {
           <div className={section1Styles.text1}>Expertise</div>
           <div className={section1Styles.text2}><CustomLink to="/blog">Engaging</CustomLink></div>
           <button className={section1Styles.btn}>
+            <CustomLink to="/admin-login">
             {/* TODO */}
             SIGN IN
+            </CustomLink>
           </button>
           <CustomLink to ="/aboutme">
           <button className={section1Styles.btn1}>

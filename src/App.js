@@ -1,15 +1,19 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import Home from './components/Home';
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 import AOS from 'aos';
+import { isMobile } from 'react-device-detect';
+import 'aos/dist/aos.css';
+import './fonts.css';
+import EditBlog from 'components/Editblog';
 import Header from 'components/header';
 import Footer from 'components/footer';
-import { isMobile } from 'react-device-detect';
+import Home from 'components/Home';
 import Aboutme from 'components/Aboutme';
 import Booknow from 'components/Booknow';
 import Blog from 'components/Blog';
-import 'aos/dist/aos.css';
-import './fonts.css';
+
+import AdminDashboard from 'components/AdminDashboard';
+import AdminPage from 'AdminPage';
 
 function App() {
   useEffect(() => {
@@ -22,16 +26,19 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <>
       <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/aboutme" component={Aboutme} />
-        <Route path="/booknow" component={Booknow} />
-        <Route path="/blog" component={Blog} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutme" element={<Aboutme />} />
+        <Route path="/booknow" element={<Booknow />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/admin-login" element={<AdminPage />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/blog/edit/:id" element={<EditBlog />} />
+      </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
