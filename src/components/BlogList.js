@@ -6,7 +6,7 @@ import app from '../firebase';
 const db = getDatabase(app);
 const blogsRef = ref(db, 'Blog/blogs');
 
-const Bloglist = () => {
+function Bloglist () {
     const [blogslist, setBlogs] = useState([]);
 
     useEffect(() => {
@@ -28,25 +28,31 @@ const Bloglist = () => {
     }, []);
 
     return (
-        <div>
-            <h2 className="w-full text-center font-bold text-xl">All blogs List</h2>
-            {blogslist.map(blog => (
-                <div key={blog.id}>
-                    <p className="text-black">Title: {blog.BlogTitle}</p>
-                    <p>Body: {blog.BlogContent}</p>
-                    <Link to={`/blog/${blog.id}`}
-                        className="mr-2 bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-1 px-2 border border-indigo-500 rounded"
-                    >
-                        View
-                    </Link>
-                    <Link to={`/blog/edit/${blog.id}`}
-                        className="mr-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 border border-blue-500 rounded"
-                    >
-                        Edit
-                    </Link>
-                </div>
-            ))}
+        <div className="p-4">
+      <h2 className="w-full text-center font-bold text-xl mb-4">All Blogs List</h2>
+      {blogslist.map(blog => (
+        <div key={blog.id} className="mb-4 p-4 border rounded shadow bg-white">
+          <p className="text-black font-semibold">Title: {blog.BlogTitle}</p>
+          <p className="text-gray-700">Body: {blog.BlogContent}</p>
+          <div className="mt-2">
+            <Link
+              to={`/blog/${blog.id}`}
+              className="mr-2 bg-indigo-500 hover:bg-indigo-700 text-black font-bold py-1 px-2 rounded"
+            >
+              View
+            </Link>
+            <Link
+              to={`/blog/edit/${blog.id}`}
+              className="bg-blue hover:bg-blue-700 text-black font-bold py-1 px-2 rounded"
+            >
+              Edit
+            </Link>
+            
+          </div>
         </div>
+      ))}
+    </div>
+
     );
 };
 

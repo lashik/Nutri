@@ -16,7 +16,7 @@ function AdminPage() {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      history.push('/admin');
+      history('/admin');
     } catch (err) {
       setError(err.message);
     }

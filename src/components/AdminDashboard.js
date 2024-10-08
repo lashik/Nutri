@@ -29,20 +29,11 @@ function AdminDashboard() {
     <div className="admin-dashboard">
       <h1>Admin Dashboard</h1>
       <Bloglist/>
-      <div className="blog-list">
-        {blogs.map((blog) => (
-          <div key={blog.id} className="blog-card">
-            <h2>{blog.title}</h2>
-            <p>{blog.content}</p>
-            <button onClick={() => alert(`Edit blog with ID: ${blog.id}`)}>Edit</button>
-            
-          </div>
-        ))}
-      </div>
+      
       <div className="create-blog">
         <h2>Create New Blog</h2>
         {/* Form to create a new blog */}
-        <form>
+        <form onSubmit={handleCreateBlog}>
           <input type="text" placeholder="Title" />
           <textarea placeholder="Content"></textarea>
           <button type="submit">Create Blog</button>

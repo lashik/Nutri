@@ -9,9 +9,11 @@
 .section21 {
   display: flex;
   flex-direction: column;
+  
   margin: 205px auto 622px;
   width: 87.57%;
   max-width: 1261px;
+  height: 1297px;
   background-color: rgb(255 241 122);
   border-radius: 32px;
   outline: 1px solid rgb(255 255 255);
@@ -35,8 +37,9 @@
   display: flex;
   justify-content: space-between;
   gap: 0 10px;
-  margin: 34px 23px 1291px auto;
+  margin: 34px 23px 0px auto;
   width: 640px;
+  max-height: 300px;
    max-width: 100%;
 
   @include md {

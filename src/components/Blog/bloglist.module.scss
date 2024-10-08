@@ -1,0 +1,32 @@
+@use "../utils" as *;
+@use "../global" as *;
+
+.yellow_box {
+    background-color: white;
+    border-radius: 10px;
+    margin: 3% 4% auto;
+    flex-direction: column;
+    /* Add more styles as needed */
+    width: auto;
+  }
+  .title{
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    width: 100%;
+  }
+  .content{
+    padding-left: 2%;
+    width: auto;
+  }
+  .blog_card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
