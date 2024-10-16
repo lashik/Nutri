@@ -25,7 +25,7 @@ function Header(props) {
           <div className={section1Styles.text}>
             <CustomLink to="/booknow">Clinic</CustomLink>
           </div>
-          <div className={section1Styles.text1}>Expertise</div>
+          <div className={section1Styles.text1}><CustomLink to="/aboutme">Expertise</CustomLink></div>
           <div className={section1Styles.text2}>
             <CustomLink to="/blog">Engaging</CustomLink>
           </div>

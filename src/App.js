@@ -16,7 +16,7 @@ import Home from "components/Home";
 import Aboutme from "components/Aboutme";
 import Booknow from "components/Booknow";
 import Blog from "components/Blog";
-
+import ViewBlog from "components/ViewBlog";
 import AdminDashboard from "components/AdminDashboard";
 import AdminPage from "AdminPage";
 
@@ -42,9 +42,11 @@ function App() {
           <Route path="/admin-login" element={<AdminPage />} />
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/blog/edit/:id" element={<EditBlog />} />
+          <Route path="/blog/view/:id" element={<ViewBlog />}/>
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
+      
     </>
   );
 }

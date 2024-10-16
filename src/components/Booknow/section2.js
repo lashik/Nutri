@@ -1,66 +1,55 @@
 import React from 'react';
-
+import { useState } from 'react';
 import section2Styles from './section2.module.scss';
+const FORMSPREE_URL = 'https://formspree.io/f/xvgoowrp'; 
+const RenderSection2 =()=>{
+  
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    number: '',
+    description: ''
+  });
 
-function renderSection2(props) {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Sending form data to Formspree
+    try {
+      const response = await fetch(FORMSPREE_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        alert('Form submitted successfully!');
+        setFormData({
+          name: '',
+          email: '',
+          number: '',
+          description: ''
+        });
+      } else {
+        alert('There was an issue submitting the form.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('There was an issue submitting the form.');
+    }
+  };
   return (
-    <section className={section2Styles.section2}>
-      <div className={section2Styles.flex_col}>
-        <h1 className={section2Styles.title}>Book a consultation</h1>
-
-        <div className={section2Styles.content_box7}>
-          <div className={section2Styles.flex_col1}>
-            <div className={section2Styles.content_box5}>
-              <div className={section2Styles.flex_col2}>
-                <div className={section2Styles.flex_row}>
-                  <div className={section2Styles.flex_col3}>
-                    <div className={section2Styles.info}>Name</div>
-
-                    <div className={section2Styles.content_box2}>
-                      <div className={section2Styles.info1}>Name</div>
-                    </div>
-                  </div>
-
-                  <div className={section2Styles.flex_col4}>
-                    <div className={section2Styles.info2}>Email id</div>
-
-                    <div className={section2Styles.content_box3}>
-                      <div className={section2Styles.info11}>Email ID</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={section2Styles.flex_col5}>
-                  <div className={section2Styles.flex_col6}>
-                    <div className={section2Styles.info}>Number</div>
-
-                    <div className={section2Styles.content_box2}>
-                      <div className={section2Styles.info12}>Phone no.</div>
-                    </div>
-                  </div>
-
-                  <div className={section2Styles.flex_col7}>
-                    <div className={section2Styles.info}>Description</div>
-
-                    <div className={section2Styles.content_box1}>
-                      <div className={section2Styles.info13}>Describe the help you are looking for</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className={section2Styles.content_box6}>
-              <button className={section2Styles.btn}>
-                {/* TODO */}
-                Book Now
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div className={section2Styles.flex_col}>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScm4bkw4VeKAT6iitZ2cBHONUp3PGmBWc3CwX8NVv_HCGdm-A/viewform?embedded=true" width="640" height="856" frameborder="0" marginheight="10" marginwidth="100" c>Loading…</iframe>
+    </div>
   );
 }
 
-export default renderSection2;
+export default RenderSection2;

@@ -10,7 +10,7 @@ const db = getDatabase(app);
 const EditBlog = () => {
     const { id } = useParams();
     const navigate = useNavigate();
-    const [blog, setBlog] = useState({ BlogTitle: '', BlogContent: '' });
+    const [blog, setBlog] = useState({ BlogTitle: '', BlogContent: ''  });
 
     useEffect(() => {
         const fetchBlog = async () => {

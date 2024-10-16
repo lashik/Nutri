@@ -82,10 +82,10 @@ function renderSection3(props) {
                         src={'/assets/c59e19aa7ce8eb2852dd18f120b4f07c.png'}
                         alt="alt text"
                       />
-                      <p className={section3Styles.highlight8}>Founder of NutriPro</p>
+                      <p className={section3Styles.highlight8}></p>
                     </div>
 
-                    <p className={section3Styles.highlight7}>Patricia R.</p>
+                    <p className={section3Styles.highlight7}>Patricia </p>
                   </div>
                 </div>
               </div>
@@ -100,11 +100,11 @@ function renderSection3(props) {
 
                   <div className={section3Styles.group2}>
                     <h2 className={section3Styles.medium_title13}>
-                      NutriPro
+                      Nutri Navigator
                       <br />
                       transformed my
                     </h2>
-                    <h2 className={section3Styles.medium_title14}>approach to</h2>
+                    <h2 className={section3Styles.medium_title14}>approach to eating</h2>
                   </div>
 
                   <div className={section3Styles.group3}>

@@ -1,6 +1,13 @@
 import React from 'react';
 
 import section3Styles from './section3.module.scss';
+import { Link } from 'react-router-dom';
+import styled from "styled-components";
+
+const CustomLink = styled(Link)`
+  color: inherit;
+  text-decoration: none;
+`;
 
 function renderSection3(props) {
   return (
@@ -31,7 +38,7 @@ function renderSection3(props) {
                     src={'/assets/c59e19aa7ce8eb2852dd18f120b4f07c.png'}
                     alt="alt text"
                   />
-                  <p className={section3Styles.highlight5}>Founder of NutriPro</p>
+                  <p className={section3Styles.highlight5}></p>
                 </div>
 
                 <p className={section3Styles.highlight4}>Patricia R.</p>
@@ -49,11 +56,11 @@ function renderSection3(props) {
 
               <div className={section3Styles.group2}>
                 <h2 className={section3Styles.medium_title3}>
-                  NutriPro
+                  Nutri Navigator
                   <br />
                   transformed my
                 </h2>
-                <h2 className={section3Styles.medium_title32}>approach to</h2>
+                <h2 className={section3Styles.medium_title32}>approach to eating</h2>
               </div>
 
               <div className={section3Styles.group3}>
@@ -136,7 +143,7 @@ function renderSection3(props) {
 
         <button className={section3Styles.btn}>
           {/* TODO */}
-          BOOK NOW
+         <CustomLink to='/booknow'> BOOK NOW</CustomLink>
         </button>
       </div>
     </section>

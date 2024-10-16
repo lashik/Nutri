@@ -1,7 +1,13 @@
 import React from 'react';
 
 import section5Styles from './footer.module.scss';
+import { Link } from 'react-router-dom';
+import styled from "styled-components";
 
+const CustomLink = styled(Link)`
+  color: inherit;
+  text-decoration: none;
+`;
 function Footer() {
   return (
     <section className={section5Styles.section5}>
@@ -16,8 +22,8 @@ function Footer() {
             </div>
 
             <div className={section5Styles.flex_row1}>
-              <p className={section5Styles.highlight14}>Our Story</p>
-              <p className={section5Styles.highlight14}>Blog</p>
+              <CustomLink to="/aboutme">Our story</CustomLink>
+              <p className={section5Styles.highlight14}><CustomLink to="/blog">Blog</CustomLink></p>
               <p className={section5Styles.highlight141}>The Nutri Navigator on Instagram</p>
             </div>
           </div>
@@ -28,8 +34,8 @@ function Footer() {
             <h2 className={section5Styles.medium_title5}>The Nutri Navigator</h2>
 
             <div className={section5Styles.flex_row2}>
-              <p className={section5Styles.highlight17}>About Us</p>
-              <p className={section5Styles.highlight171}>Contact Us</p>
+              <p className={section5Styles.highlight17}><CustomLink to="/aboutme">About us</CustomLink></p>
+              <p className={section5Styles.highlight171}><CustomLink to="/booknow">Contact us</CustomLink></p>
             </div>
 
             <div className={section5Styles.flex_row3}>
