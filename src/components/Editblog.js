@@ -3,8 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { getDatabase, ref, get, update, remove } from 'firebase/database';
 import app from '../firebase';
 import { useParams, useNavigate } from 'react-router-dom';
-import reactRouterDom from 'react-router-dom';
-import { doc, deleteDoc } from "firebase/firestore";
+
 const db = getDatabase(app);
 
 const EditBlog = () => {

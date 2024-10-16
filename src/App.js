@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
   Routes,
 } from "react-router-dom";
 import AOS from "aos";

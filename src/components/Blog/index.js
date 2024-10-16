@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 
-import renderSection1 from 'components/header.js';
+
 import renderSection2 from './section2';
 
 
