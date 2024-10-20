@@ -20,7 +20,7 @@ function renderSection3() {
           <div className={section3Styles.flex_col5}>
             <img
               className={section3Styles.image6}
-              src={"/assets/2eac1c94275b31fdf8ad0874935a592e8.svg"}
+              src={"/assets/eac1c94275b31fdf8ad0874935a592e8.svg"}
               alt="alt text"
             />
 
@@ -48,7 +48,7 @@ function renderSection3() {
           <div className={section3Styles.flex_col5}>
             <img
               className={section3Styles.image6}
-              src={"/assets/2eac1c94275b31fdf8ad0874935a592e8.svg"}
+              src={"/assets/eac1c94275b31fdf8ad0874935a592e8.svg"}
               alt="alt text"
             />
 
@@ -76,7 +76,7 @@ function renderSection3() {
           <div className={section3Styles.flex_col5}>
             <img
               className={section3Styles.image6}
-              src={"/assets/2eac1c94275b31fdf8ad0874935a592e8.svg"}
+              src={"/assets/eac1c94275b31fdf8ad0874935a592e8.svg"}
               alt="alt text"
             />
 
@@ -104,7 +104,7 @@ function renderSection3() {
           <div className={section3Styles.flex_col5}>
             <img
               className={section3Styles.image6}
-              src={"/assets/2eac1c94275b31fdf8ad0874935a592e8.svg"}
+              src={"/assets/eac1c94275b31fdf8ad0874935a592e8.svg"}
               alt="alt text"
             />
             <div className={section3Styles.flex_col6}>
