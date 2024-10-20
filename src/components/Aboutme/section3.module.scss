@@ -1,17 +1,25 @@
 @use "../utils" as *;
 @use "../global" as *;
 
-.section3 {
-  display: flex;
-  flex-direction: column;
+
+
+.medium_title {
+  font: 700 24px/1.33 "Poppins";
+  color: #1F2937;
 }
+
 
 .flex_col {
   display: flex;
   flex-direction: column;
-  gap: 77px 0;
-  margin: 0 24px 35px 29px;
-  max-width: 100%;
+  align-items: center ;
+  gap: 50px 0;
+  margin: 50px 50px 35px 50px;
+
+  @include lg{
+    margin-top: 100px;
+    
+  }
 
   @include xs {
     margin: 0 16px 35px;
@@ -26,10 +34,11 @@
 .flex_row {
   display: flex;
   justify-content: space-between;
-  gap: 0 10px;
+  gap: 0 30px;
 
   @include lg {
     flex-direction: column;
+    width: 40%;
     align-items: center;
     gap: 30px 10px;
   }
@@ -38,10 +47,9 @@
 .content_box3 {
   display: flex;
   flex-direction: column;
-  margin: 2px 0 0;
+  margin: 2px 0 ;
   width: 322px;
-  min-width: 0;
-  background-color: rgb(255 241 122);
+  background-color: #629584;
   border-radius: 6px;
   box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
 
@@ -80,8 +88,8 @@
 
 .medium_title3 {
   position: relative;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
-  color: rgb(40 40 40);
+  font: 700 25px/1.52 "Poppins";
+  color: white;
 
   @include md {
     align-items: flex-start;
@@ -93,24 +101,6 @@
   }
 }
 
-.medium_title31 {
-  position: absolute;
-  bottom: -26px;
-  left: 2px;
-  width: 125px;
-  height: 38px;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
-  color: rgb(40 40 40);
-
-  @include md {
-    align-items: flex-start;
-    font-size: 24px;
-  }
-
-  @include xxs {
-    font-size: 20px;
-  }
-}
 
 .group1 {
   position: relative;
@@ -141,7 +131,7 @@
 
 .highlight5 {
   margin: 23px 0 0;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(128 128 128);
 }
 
@@ -151,7 +141,7 @@
   left: 59px;
   width: 71px;
   height: 24px;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(73 73 73);
 }
 
@@ -160,7 +150,7 @@
   flex-direction: column;
   width: 322px;
   min-width: 0;
-  background-color: rgb(255 241 122);
+  background-color: #629584;
   border-radius: 6px;
   box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
 
@@ -194,25 +184,6 @@
   display: flex;
   flex-direction: column;
   margin: 31px 0 0 6px;
-}
-
-.medium_title32 {
-  position: absolute;
-  bottom: -25px;
-  left: 0;
-  width: 159px;
-  height: 38px;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
-  color: rgb(40 40 40);
-
-  @include md {
-    align-items: flex-start;
-    font-size: 24px;
-  }
-
-  @include xxs {
-    font-size: 20px;
-  }
 }
 
 .group3 {
@@ -253,7 +224,7 @@
 
 .highlight3 {
   margin: 25px 0 0;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(107 107 107);
 }
 
@@ -263,7 +234,7 @@
   left: 57px;
   width: 56px;
   height: 24px;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(73 73 73);
 }
 
@@ -273,7 +244,7 @@
   margin: 2px 0 0;
   width: 322px;
   min-width: 0;
-  background-color: rgb(255 241 122);
+  background-color: #629584;
   border-radius: 6px;
   box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
 
@@ -317,25 +288,6 @@
   margin: 34px 0 0 5px;
 }
 
-.medium_title33 {
-  position: absolute;
-  bottom: -25px;
-  left: 0;
-  width: 97px;
-  height: 38px;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
-  color: rgb(40 40 40);
-
-  @include md {
-    align-items: flex-start;
-    font-size: 24px;
-  }
-
-  @include xxs {
-    font-size: 20px;
-  }
-}
-
 .group5 {
   position: relative;
   display: flex;
@@ -355,7 +307,7 @@
   left: 57px;
   width: 51px;
   height: 24px;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(73 73 73);
 }
 
@@ -378,7 +330,7 @@
 
 .highlight6 {
   margin: 24px 0 0;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(116 116 116);
 }
 
@@ -388,7 +340,7 @@
   margin: 2px 0 1px;
   width: 322px;
   min-width: 0;
-  background-color: rgb(255 241 122);
+  background-color: #629584;
   border-radius: 6px;
   box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
 
@@ -415,8 +367,8 @@
 
 .medium_title4 {
   margin: 0 0 0 6px;
-  font: 700 25px/1.44 Epilogue, Helvetica, Arial, serif;
-  color: rgb(40 40 40);
+  font: 700 25px/1.44 "Poppins";
+  color: white;
 
   @include md {
     align-items: flex-start;
@@ -455,7 +407,7 @@
 
 .highlight31 {
   margin: 23px 0 0;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(107 107 107);
   letter-spacing: -0.1px;
 }
@@ -466,24 +418,24 @@
   left: 57px;
   width: 71px;
   height: 24px;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(73 73 73);
 }
 
 .btn {
   display: flex;
   justify-content: center;
-  margin: 0 0 0 40%;
-  left: 50%;
+  margin: 20px 0 20px 0;
   width: 368px;
-  max-width: 100%;
-  font: 700 15px/1.6 Inter, Helvetica, Arial, serif;
-  color: rgb(0 0 0);
+  font: 700 15px/1.6 "Poppins";
+  color: rgb(255, 255, 255);
   text-align: center;
-  background-color: rgb(244 225 224);
+  background-color: #243642;
   border-radius: 12px;
   padding: 12.5px 8px;
-  outline: 1px solid rgb(255 255 255);
-  outline-offset: -1px;
-  letter-spacing: -0.1px;
+
+  @include lg{
+    margin-left: 0;
+  }
+
 }

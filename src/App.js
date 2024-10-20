@@ -1,13 +1,4 @@
-import React, { useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from "react-router-dom";
-import AOS from "aos";
-import { isMobile } from "react-device-detect";
-import "aos/dist/aos.css";
-import "./fonts.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import EditBlog from "components/Editblog";
 import Header from "components/header";
 import Footer from "components/footer";
@@ -17,18 +8,9 @@ import Booknow from "components/Booknow";
 import Blog from "components/Blog";
 import ViewBlog from "components/ViewBlog";
 import AdminDashboard from "components/AdminDashboard";
-import AdminPage from "AdminPage";
+import AdminPage from "AdminLogin";
 
 function App() {
-  useEffect(() => {
-    setTimeout(() => {
-      AOS.init({
-        offset: isMobile ? 10 : 100,
-      });
-      AOS.refresh();
-    }, 1500);
-  }, []);
-
   return (
     <>
       <Router>
@@ -41,13 +23,12 @@ function App() {
           <Route path="/admin-login" element={<AdminPage />} />
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/blog/edit/:id" element={<EditBlog />} />
-          <Route path="/blog/view/:id" element={<ViewBlog />}/>
+          <Route path="/blog/view/:id" element={<ViewBlog />} />
         </Routes>
         <Footer />
       </Router>
-      
     </>
   );
 }
 
-export default App;
+export default App;

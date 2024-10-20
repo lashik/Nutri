@@ -2,7 +2,7 @@
 @use "../global" as *;
 
 .yellow_box {
-    background-color: rgb(255 241 122);
+    background-color: #E2F1E7;
     border-radius: 10px;
     margin: 3% 4% auto;
     flex-direction: column;
@@ -11,24 +11,29 @@
   }
   .title{
     justify-content: center;
-    font-size: large;
+    font-size: 1.2rem;
+    margin: 20px 0;
     text-align: center;
     -webkit-text-stroke-width: 1px;
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    width: 100%;
+    
   }
+
   .content{
-    padding-left: 2%;
+    padding-left: 4%;
+    padding-bottom: 20px;
     width: auto;
   }
   .blog_card {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
+
+
   .clamp_two_lines {
     display: -webkit-box;
     -webkit-line-clamp: 2;

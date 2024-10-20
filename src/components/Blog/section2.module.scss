@@ -4,47 +4,20 @@
 .section2 {
   display: flex;
   flex-direction: column;
-}
-
-.section21 {
-  display: flex;
-  flex-direction: column;
-  
-  margin: 205px auto 622px;
-  width: 87.57%;
-  max-width: 1261px;
-  height: 1297px;
-  background-color: rgb(255 241 122);
+  margin: 10rem 9rem;
+  background-color: #E2F1E7;
+  border: 1px solid black;
   border-radius: 32px;
-  outline: 1px solid rgb(255 255 255);
-  outline-offset: -1px;
-  box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
-
-  @include md {
-    margin: 150px auto;
-  }
-
-  @include xs {
-    margin: 80px auto;
-  }
-
-  @include tn {
-    margin: 50px auto;
-  }
+  box-shadow: 4px 4px 8px rgb(214, 214, 214);
+  padding-bottom: 40px;
 }
 
 .flex_row {
   display: flex;
   justify-content: space-between;
   gap: 0 10px;
-  margin: 34px 23px 0px auto;
+  margin: 34px 23px 0 auto;
   width: 640px;
-  max-height: 300px;
-   max-width: 100%;
-
-  @include md {
-    margin: 34px 23px 150px auto;
-  }
 
   @include xs {
     margin: 34px 16px 80px auto;
@@ -57,13 +30,17 @@
 }
 
 .medium_title2 {
-  margin: 10px 0 48px;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
+  margin-top: 10px;
+  font: 700 25px/1.52 "Poppins";
   color: rgb(39 35 41);
 
+  @include lg{
+    margin-left: 30%;
+  }
+
   @include md {
-    align-items: flex-start;
-    font-size: 24px;
+    margin-left: 45%;
+  
   }
 
   @include xxs {
@@ -73,6 +50,4 @@
 
 .image4 {
   width: 93px;
-  min-width: 0;
-  object-fit: cover;
 }

@@ -38,7 +38,7 @@
 .medium_title1 {
   display: flex;
   justify-content: center;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
+  font: 700 25px/1.52 "Poppins";
   color: rgb(40 40 40);
   text-align: center;
 
@@ -109,7 +109,7 @@
   margin: 0 0 0 9px;
   width: 148px;
   max-width: 100%;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
+  font: 700 25px/1.52 "Poppins";
   color: rgb(39 35 41);
 
   @include md {
@@ -168,7 +168,7 @@
 
 .highlight10 {
   margin: 0 23px 0 0;
-  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  font: 400 16px/1.62 "Poppins";
   color: rgb(72 66 77);
 
   @include xs {
@@ -182,7 +182,7 @@
 
 .highlight11 {
   margin: 6px 23px 0 0;
-  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  font: 400 16px/1.62 "Poppins";
   color: rgb(95 86 101);
   letter-spacing: -0.1px;
 
@@ -197,7 +197,7 @@
 
 .highlight101 {
   margin: 4px 0 0;
-  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  font: 400 16px/1.62 "Poppins";
   color: rgb(72 66 77);
 }
 
@@ -206,7 +206,7 @@
   justify-content: center;
   margin: 51px 0 0;
   width: 79.82%;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(3 3 3);
   text-align: center;
   background-color: rgb(244 225 224);
@@ -241,8 +241,6 @@
   max-width: 425px;
   background-color: rgb(255 241 122);
   border-radius: 34px;
-  outline: 1px solid rgb(255 255 255);
-  outline-offset: -1px;
   box-shadow: 0 0 1px 0 rgb(23 26 31 / 7%);
 
   @include lg {
@@ -276,7 +274,7 @@
 
 .medium_title41 {
   margin: 0 0 0 8px;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
+  font: 700 25px/1.52 "Poppins";
   color: rgb(39 35 41);
 
   @include md {
@@ -332,12 +330,12 @@
 .highlight102 {
   width: 175.984375px;
    max-width: 100%;
-  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  font: 400 16px/1.62 "Poppins";
   color: rgb(72 66 77);
 }
 
 .highlight13 {
-  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  font: 400 16px/1.62 "Poppins";
   color: rgb(63 57 67);
   letter-spacing: -0.1px;
 }
@@ -348,7 +346,7 @@
   margin: 49px 0 0;
   width: 157px;
   max-width: 100%;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(0 0 0);
   text-align: center;
   background-color: rgb(244 225 224);
@@ -422,7 +420,7 @@
 
 .medium_title42 {
   margin: 0 8px;
-  font: 700 25px/1.52 Epilogue, Helvetica, Arial, serif;
+  font: 700 25px/1.52 "Poppins";
   color: rgb(39 35 41);
 
   @include md {
@@ -461,7 +459,7 @@
 
 .highlight103 {
   width: 203px;
-  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  font: 400 16px/1.62 "Poppins";
   color: rgb(72 66 77);
 }
 
@@ -470,7 +468,7 @@
   justify-content: center;
   margin: 61px 0 0;
   width: 71.49%;
-  font: 400 15px/1.6 Inter, Helvetica, Arial, serif;
+  font: 400 15px/1.6 "Poppins";
   color: rgb(3 3 3);
   text-align: center;
   background-color: rgb(244 225 224);
