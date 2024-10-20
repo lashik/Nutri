@@ -15,116 +15,114 @@ function renderSection3() {
       <h2 className={section3Styles.medium_title}>
         Join Nutri Navigator community and connect with me.
       </h2>
-      <div className={section3Styles.flex_row}>
-        <div className={section3Styles.content_box3}>
-          <div className={section3Styles.flex_col1}>
+      <div className={section3Styles.flex_row1}>
+        <div className={section3Styles.content_box4}>
+          <div className={section3Styles.flex_col5}>
             <img
-              className={section3Styles.image5}
-              src={"/assets/eac1c94275b31fdf8ad0874935a592e8.svg"}
+              className={section3Styles.image6}
+              src={"/assets/2eac1c94275b31fdf8ad0874935a592e8.svg"}
               alt="alt text"
             />
 
-            <div className={section3Styles.group}>
-              <h2 className={section3Styles.medium_title3}>
+            <div className={section3Styles.flex_col6}>
+              <h2 className={section3Styles.medium_title1}>
                 I feel more energized and informed.
               </h2>
             </div>
 
             <div className={section3Styles.group1}>
-              <div className={section3Styles.flex_row1}>
+              <p className={section3Styles.highlight7}>Patricia </p>
+              <div className={section3Styles.flex_row2}>
                 <img
-                  className={section3Styles.image6}
+                  className={section3Styles.image7}
                   src={"/assets/c59e19aa7ce8eb2852dd18f120b4f07c.png"}
                   alt="alt text"
                 />
-                <p className={section3Styles.highlight5}></p>
+                <p className={section3Styles.highlight8}>lorem ipsum</p>
               </div>
-
-              <p className={section3Styles.highlight4}>Patricia R.</p>
             </div>
           </div>
         </div>
 
         <div className={section3Styles.content_box4}>
-          <div className={section3Styles.flex_col2}>
+          <div className={section3Styles.flex_col5}>
             <img
-              className={section3Styles.image51}
-              src={"/assets/eac1c94275b31fdf8ad0874935a592e8.svg"}
+              className={section3Styles.image6}
+              src={"/assets/2eac1c94275b31fdf8ad0874935a592e8.svg"}
               alt="alt text"
             />
 
-            <div className={section3Styles.group2}>
-              <h2 className={section3Styles.medium_title3}>
-                Nutri Navigator transformed my approach to eating
+            <div className={section3Styles.flex_col6}>
+              <h2 className={section3Styles.medium_title1}>
+                Nutri Navigator transformed my approach to eating.
               </h2>
             </div>
 
-            <div className={section3Styles.group3}>
+            <div className={section3Styles.group2}>
+              <p className={section3Styles.highlight7}>David H</p>
               <div className={section3Styles.flex_row2}>
                 <img
-                  className={section3Styles.image4}
+                  className={section3Styles.image7}
                   src={"/assets/92bb1c628c29c5724b36442a748fe5d4.png"}
                   alt="alt text"
                 />
-                <p className={section3Styles.highlight3}>Fitness Instructor</p>
+                <p className={section3Styles.highlight8}>Fitness Instructor</p>
               </div>
-
-              <p className={section3Styles.highlight41}>David H</p>
             </div>
           </div>
         </div>
 
-        <div className={section3Styles.content_box5}>
-          <div className={section3Styles.flex_col3}>
+        <div className={section3Styles.content_box4}>
+          <div className={section3Styles.flex_col5}>
             <img
-              className={section3Styles.image52}
-              src={"/assets/eac1c94275b31fdf8ad0874935a592e8.svg"}
+              className={section3Styles.image6}
+              src={"/assets/2eac1c94275b31fdf8ad0874935a592e8.svg"}
               alt="alt text"
             />
 
-            <div className={section3Styles.group4}>
-              <h2 className={section3Styles.medium_title3}>
-                Nutrition is the key to a healthy
+            <div className={section3Styles.flex_col6}>
+              <h2 className={section3Styles.medium_title1}>
+                Nutrition is the key to health
               </h2>
             </div>
 
-            <div className={section3Styles.group5}>
-              <p className={section3Styles.highlight42}>Emily L</p>
-
-              <div className={section3Styles.flex_row3}>
+            <div className={section3Styles.group3}>
+              <p className={section3Styles.highlight7}>Emily L </p>
+              <div className={section3Styles.flex_row2}>
                 <img
                   className={section3Styles.image7}
                   src={"/assets/cd7929f5fdc3e2c0ba624cf9fd8862ba.png"}
                   alt="alt text"
                 />
-                <p className={section3Styles.highlight6}>Dietitian</p>
+                <p className={section3Styles.highlight8}>Dietitian</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className={section3Styles.content_box6}>
-          <div className={section3Styles.flex_col4}>
+        <div className={section3Styles.content_box4}>
+          <div className={section3Styles.flex_col5}>
             <img
-              className={section3Styles.image51}
-              src={"/assets/eac1c94275b31fdf8ad0874935a592e8.svg"}
+              className={section3Styles.image6}
+              src={"/assets/2eac1c94275b31fdf8ad0874935a592e8.svg"}
               alt="alt text"
             />
-            <h2 className={section3Styles.medium_title4}>
-              Improved health through balanced
-            </h2>
+            <div className={section3Styles.flex_col6}>
+              <h2 className={section3Styles.medium_title1}>
+                Improved health through balanced diet
+              </h2>
+            </div>
 
-            <div className={section3Styles.group6}>
-              <div className={section3Styles.flex_row4}>
+            <div className={section3Styles.group4}>
+              <p className={section3Styles.highlight7}>Michael C</p>
+              <div className={section3Styles.flex_row2}>
                 <img
-                  className={section3Styles.image8}
+                  className={section3Styles.image7}
                   src={"/assets/bbf0d2e5106ee3f1b4f27310000b0019.png"}
                   alt="alt text"
                 />
-                <p className={section3Styles.highlight31}>Wellness Coach</p>
+                <p className={section3Styles.highlight8}>Wellness Coach</p>
               </div>
-
-              <p className={section3Styles.highlight43}>Michael C</p>
             </div>
           </div>
         </div>

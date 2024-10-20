@@ -98,7 +98,7 @@ function renderSection3(props) {
                 </h2>
               </div>
 
-              <div className={section3Styles.group1}>
+              <div className={section3Styles.group2}>
                 <p className={section3Styles.highlight7}>David H</p>
                 <div className={section3Styles.flex_row2}>
                   <img
@@ -128,7 +128,7 @@ function renderSection3(props) {
                 </h2>
               </div>
 
-              <div className={section3Styles.group1}>
+              <div className={section3Styles.group3}>
                 <p className={section3Styles.highlight7}>Emily L </p>
                 <div className={section3Styles.flex_row2}>
                   <img
@@ -155,7 +155,7 @@ function renderSection3(props) {
                 </h2>
               </div>
 
-              <div className={section3Styles.group1}>
+              <div className={section3Styles.group4}>
                 <p className={section3Styles.highlight7}>Michael C</p>
                 <div className={section3Styles.flex_row2}>
                   <img

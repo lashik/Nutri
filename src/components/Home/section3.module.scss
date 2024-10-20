@@ -169,7 +169,7 @@
   margin: 2px 0 0;
   width: 322px;
   background-color: #E2F1E7;
-  border-radius: 2px;
+  border-radius: 6px;
 
   @include lg {
     width: 50%;
@@ -221,12 +221,47 @@
 
 .group1 {
   position: relative;
+  top: 80px;
   display: flex;
   flex-direction: column;
   margin: 67px 0 0;
+  @include lg {
+    top: 0;
+  }
+}
 
+
+.group2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 67px 0 0;
   @include tn {
     margin: 50px 0 0;
+  }
+}
+
+
+.group3 {
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  margin: 67px 0 0;
+  @include lg {
+    top: 0;
+  }
+}
+
+
+.group4 {
+  position: relative;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 67px 0 0;
+  @include lg {
+    top: 0;
   }
 }
 
@@ -254,11 +289,11 @@
 
 .highlight7 {
   position: absolute;
+  bottom: 1;
   top: 4px;
   left: 59px;
-  width: 71px;
   height: 24px;
-  font: 400 15px/1.6 "Poppins";
-  color: rgb(73 73 73);
+  font: 600 15px/1.6 "Poppins";
+  color: rgb(0, 0, 0);
 }
 
