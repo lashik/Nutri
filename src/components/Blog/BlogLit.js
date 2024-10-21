@@ -4,11 +4,6 @@ import { getDatabase, ref, onValue } from "firebase/database";
 import app from "../../firebase"; // Ensure you have Firebase initialized
 import sytle2 from "./bloglist.module.scss";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
-const CustomLink = styled(Link)`
-  color: inherit;
-  text-decoration: none;
-`;
 const BlogLis = () => {
   const [blogs, setBlogs] = useState([]);
 

@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   gap: 1px 0;
-  background-color: #387478;
+  background-color: rgb(255 241 122);
    
 }
 
@@ -63,7 +63,7 @@
 
 .highlight5 {
   font: 900 1.5rem "Poppins";
-  color: white;
+  color:black;
 
   @include lg{
     font-size: 1.2rem;
@@ -78,7 +78,7 @@
 
 .highlight4 {
   font: 400 1rem/1.6 "Poppins";
-  color: white;
+  color: black;
 
   @include lg{
     font-size: 0.9rem;
@@ -131,7 +131,7 @@
   display: flex;
   justify-content: center;
   font: 700 25px/1.52 "Poppins";
-  color: white;
+  color:black;
   text-align: center;
 
   @include md {
@@ -197,6 +197,7 @@
   margin: 0 0 0 7px;
   width: 45px;
   object-fit: cover;
+  color: black;
 }
 
 .flex_col6 {
