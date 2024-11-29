@@ -28,9 +28,9 @@ function renderSection3(props) {
             alt="alt text"
           />
           <div className={section3Styles.flex_col_rows}>
-            <p className={section3Styles.highlight5}>Healthy Sleep Habits</p>
+            <p className={section3Styles.highlight5}>Healthy Habits</p>
             <p className={section3Styles.highlight4}>
-              Learn about rejuvenating sleep practices and wake up feeling
+              Learn about rejuvenating practices and wake up feeling energized
             </p>
           </div>
         </div>
@@ -42,9 +42,9 @@ function renderSection3(props) {
             alt="alt text"
           />
           <div className={section3Styles.flex_col_rows}>
-            <p className={section3Styles.highlight5}>Stress Management</p>
+            <p className={section3Styles.highlight5}>Weight Management</p>
             <p className={section3Styles.highlight4}>
-              Discover effective stress management techniques and embrace
+              Discover effective weight management techniques
             </p>
           </div>
         </div>
