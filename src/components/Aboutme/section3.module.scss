@@ -94,25 +94,25 @@
 }
 
 .medium_title1 {
-  font: 700 25px/1.52 "Poppins";
+  font: 700 18px/1.52 "Poppins";
   color: black;
 
   @include md {
     align-items: flex-start;
-    font-size: 24px;
+    font-size: 17px;
   }
 
   @include xxs {
-    font-size: 20px;
+    font-size: 13px;
   }
 }
 
 .group1 {
   position: relative;
-  top: 80px;
+  top: 10px;
   display: flex;
   flex-direction: column;
-  margin: 67px 0 0;
+  margin: 67px 0 0 ;
   @include lg {
     top: 0;
   }
@@ -123,7 +123,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 67px 0 0;
+  margin: 67px 0 5px;
+  
   @include tn {
     margin: 50px 0 0;
   }
@@ -132,7 +133,7 @@
 
 .group3 {
   position: relative;
-  top: 80px;
+  top: 5px;
   display: flex;
   flex-direction: column;
   margin: 67px 0 0;

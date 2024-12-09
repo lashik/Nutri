@@ -52,7 +52,7 @@ function renderSection3(props) {
 
       <div className={section3Styles.flex_col4}>
         <h2 className={section3Styles.medium_title3}>
-          Join Nutri Navigator community and connect with me.
+          Join Nutri Navigator community with these packages.
         </h2>
 
         <div className={section3Styles.flex_row1}>
@@ -66,21 +66,11 @@ function renderSection3(props) {
 
               <div className={section3Styles.flex_col6}>
                 <h2 className={section3Styles.medium_title1}>
-                  I feel more energized and informed.
+                  Health and Heart
                 </h2>
               </div>
 
-              <div className={section3Styles.group1}>
-                <p className={section3Styles.highlight7}>Patricia </p>
-                <div className={section3Styles.flex_row2}>
-                  <img
-                    className={section3Styles.image7}
-                    src={"/assets/c59e19aa7ce8eb2852dd18f120b4f07c.png"}
-                    alt="alt text"
-                  />
-                  <p className={section3Styles.highlight8}>lorem ipsum</p>
-                </div>
-              </div>
+              
             </div>
           </div>
 
@@ -94,23 +84,11 @@ function renderSection3(props) {
 
               <div className={section3Styles.flex_col6}>
                 <h2 className={section3Styles.medium_title1}>
-                  Nutri Navigator transformed my approach to eating.
+                  Maternal Nutrition
                 </h2>
               </div>
 
-              <div className={section3Styles.group2}>
-                <p className={section3Styles.highlight7}>David H</p>
-                <div className={section3Styles.flex_row2}>
-                  <img
-                    className={section3Styles.image7}
-                    src={"/assets/92bb1c628c29c5724b36442a748fe5d4.png"}
-                    alt="alt text"
-                  />
-                  <p className={section3Styles.highlight8}>
-                    Fitness Instructor
-                  </p>
-                </div>
-              </div>
+              
             </div>
           </div>
 
@@ -124,21 +102,11 @@ function renderSection3(props) {
 
               <div className={section3Styles.flex_col6}>
                 <h2 className={section3Styles.medium_title1}>
-                  Nutrition is the key to health
+                  Pediatric Nutrition
                 </h2>
               </div>
 
-              <div className={section3Styles.group3}>
-                <p className={section3Styles.highlight7}>Emily L </p>
-                <div className={section3Styles.flex_row2}>
-                  <img
-                    className={section3Styles.image7}
-                    src={"/assets/cd7929f5fdc3e2c0ba624cf9fd8862ba.png"}
-                    alt="alt text"
-                  />
-                  <p className={section3Styles.highlight8}>Dietitian</p>
-                </div>
-              </div>
+              
             </div>
           </div>
 
@@ -151,21 +119,11 @@ function renderSection3(props) {
               />
               <div className={section3Styles.flex_col6}>
                 <h2 className={section3Styles.medium_title1}>
-                  Improved health through balanced diet
+                  Weight loss/gain
                 </h2>
               </div>
 
-              <div className={section3Styles.group4}>
-                <p className={section3Styles.highlight7}>Michael C</p>
-                <div className={section3Styles.flex_row2}>
-                  <img
-                    className={section3Styles.image7}
-                    src={"/assets/bbf0d2e5106ee3f1b4f27310000b0019.png"}
-                    alt="alt text"
-                  />
-                  <p className={section3Styles.highlight8}>Wellness Coach</p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

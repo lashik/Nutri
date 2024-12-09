@@ -26,19 +26,20 @@ function renderSection3() {
 
             <div className={section3Styles.flex_col6}>
               <h2 className={section3Styles.medium_title1}>
-                I feel more energized and informed.
+              I managed to lose 8-9 kgs without the need for intense exercise.
+              If you’re looking for quick and effective results, Mrs. Barve is the person to go to. Highly recommended!
               </h2>
             </div>
 
             <div className={section3Styles.group1}>
-              <p className={section3Styles.highlight7}>Patricia </p>
+              <p className={section3Styles.highlight7}>Radhika Iyengar </p>
               <div className={section3Styles.flex_row2}>
                 <img
                   className={section3Styles.image7}
-                  src={"/assets/c59e19aa7ce8eb2852dd18f120b4f07c.png"}
+                  src={"/assets/woman.png"}
                   alt="alt text"
                 />
-                <p className={section3Styles.highlight8}>lorem ipsum</p>
+                <p className={section3Styles.highlight8}>Student</p>
               </div>
             </div>
           </div>
@@ -54,19 +55,20 @@ function renderSection3() {
 
             <div className={section3Styles.flex_col6}>
               <h2 className={section3Styles.medium_title1}>
-                Nutri Navigator transformed my approach to eating.
+              What sets Gayatri Ma’am apart is the holistic approach.
+              If you are looking for a nutritionist who truly cares about your health and well- being, I wholeheartedly recommend Gayatri Ma’am’s Diet.
               </h2>
             </div>
 
             <div className={section3Styles.group2}>
-              <p className={section3Styles.highlight7}>David H</p>
+              <p className={section3Styles.highlight7}>Sarita Gindodia</p>
               <div className={section3Styles.flex_row2}>
                 <img
                   className={section3Styles.image7}
-                  src={"/assets/92bb1c628c29c5724b36442a748fe5d4.png"}
+                  src={"/assets/woman.png"}
                   alt="alt text"
                 />
-                <p className={section3Styles.highlight8}>Fitness Instructor</p>
+                <p className={section3Styles.highlight8}></p>
               </div>
             </div>
           </div>
@@ -82,19 +84,21 @@ function renderSection3() {
 
             <div className={section3Styles.flex_col6}>
               <h2 className={section3Styles.medium_title1}>
-                Nutrition is the key to health
+              Gayatri’s diets are not only custom made to your body’s 
+              requirements but also considers your family’s lifestyle.  
+              For a scientific and holistic diet, my go to person is Gayatri anytime.
               </h2>
             </div>
 
             <div className={section3Styles.group3}>
-              <p className={section3Styles.highlight7}>Emily L </p>
+              <p className={section3Styles.highlight7}>Shilpa Wagh</p>
               <div className={section3Styles.flex_row2}>
                 <img
                   className={section3Styles.image7}
-                  src={"/assets/cd7929f5fdc3e2c0ba624cf9fd8862ba.png"}
+                  src={"/assets/woman.png"}
                   alt="alt text"
                 />
-                <p className={section3Styles.highlight8}>Dietitian</p>
+                <p className={section3Styles.highlight8}></p>
               </div>
             </div>
           </div>
@@ -118,7 +122,7 @@ function renderSection3() {
               <div className={section3Styles.flex_row2}>
                 <img
                   className={section3Styles.image7}
-                  src={"/assets/bbf0d2e5106ee3f1b4f27310000b0019.png"}
+                  src={"/assets/woman.png"}
                   alt="alt text"
                 />
                 <p className={section3Styles.highlight8}>Wellness Coach</p>

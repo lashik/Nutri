@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import section2Styles from "./section2.module.scss";
-import image1 from "../../assets/carousel1.jpg";
-import image2 from "../../assets/carousel2.jpeg";
+import image1 from "../../assets/carousel4.jpg";
+
 const Carousel = () => {
-  const images = [image1, image2];
+  const images = [image1];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalImages = images.length;
