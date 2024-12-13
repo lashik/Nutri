@@ -34,8 +34,8 @@ const Header = () => {
         </button>
 
         <button className={section1Styles.btn1}>
-          <Link className={section1Styles.links3} to="/aboutme">
-            DISCOVER MORE
+          <Link className={section1Styles.links3} to="/booknow">
+            BOOK NOW
           </Link>
         </button>
       </div>

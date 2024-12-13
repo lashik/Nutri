@@ -33,19 +33,16 @@ function Footer() {
               <CustomLink to="/booknow">Contact us</CustomLink>
             </p>
             <p className={section5Styles.highlight14}>
-              The Nutri Navigator on Instagram
+              <a href="https://www.instagram.com/the_nutrinavigator/">The Nutri Navigator on Instagram</a>
             </p>
+            
             <div className={section5Styles.flex_row3}>
-              <img
+            <a href="https://www.google.com/maps/place/Palkars+Polyclinic/@19.0245758,72.8345638,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7cecf74d3536d:0xadc9971f08a548d0!8m2!3d19.0245707!4d72.8371387!16s%2Fg%2F1tjcmy27?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"><img
                 className={section5Styles.image19}
-                src={"/assets/6eb43901c530ba5d9dc9b875ee35695b.png"}
+                src={"/assets/pin.png"}
                 alt="alt text"
-              />
-              <img
-                className={section5Styles.image20}
-                src={"/assets/05e065020038fdd90ba2a9782ea7fc38.png"}
-                alt="alt text"
-              />
+              /></a>
+              
             </div>
           </div>
         </div>
