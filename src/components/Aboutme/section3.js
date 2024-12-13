@@ -113,19 +113,19 @@ function renderSection3() {
             />
             <div className={section3Styles.flex_col6}>
               <h2 className={section3Styles.medium_title1}>
-                Improved health through balanced diet
+                  I have been consulting Mrs.Barve for a few years now and I have been getting good results. My digestion has improved and feeling much better in my gut.
               </h2>
             </div>
 
             <div className={section3Styles.group4}>
-              <p className={section3Styles.highlight7}>Michael C</p>
+              <p className={section3Styles.highlight7}>Neel Pethe</p>
               <div className={section3Styles.flex_row2}>
                 <img
                   className={section3Styles.image7}
-                  src={"/assets/woman.png"}
+                  src={"/assets/man.png"}
                   alt="alt text"
                 />
-                <p className={section3Styles.highlight8}>Wellness Coach</p>
+                <p className={section3Styles.highlight8}></p>
               </div>
             </div>
           </div>
