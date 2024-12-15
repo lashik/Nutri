@@ -22,7 +22,7 @@ function Footer() {
                Email id: gayatribarve@thenutrinavigator.com
                   </a>
 
-               <a href="tel:+919323497069">Contact no:</a> 
+               <a href="tel:+919323497069">Contact no:+91 9323497069</a> 
               <CustomLink to="/aboutme">About us</CustomLink>
             </p>
           </div>
