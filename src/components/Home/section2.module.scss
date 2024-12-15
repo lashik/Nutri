@@ -7,15 +7,15 @@
   align-items: center;
   justify-content: center;
   width: 100%;
- 
-  height: 700px;
+  top:100px;
+  height: 850px;
 
   .carouselItem {
     width: 100%;
-    height: 700px;
+    height: 850px;
     img {
       width: 100%;
-      height: 700px;
+      height: 850px;
       object-fit: cover;
       // border-radius: 1rem;
     }
