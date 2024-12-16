@@ -18,14 +18,14 @@ const Header = () => {
           />
           <h2 className={section1Styles.medium_title}>The Nutri Navigator</h2>
         </Link>
-        <Link className={section1Styles.links1} to="/booknow">
+        {/* <Link className={section1Styles.links1} to="/booknow">
           <div className={section1Styles.hyperlink}>Clinic</div>
-        </Link>
+        </Link> */}
         <Link className={section1Styles.links1} to="/aboutme">
-          <div className={section1Styles.hyperlink}>Expertise</div>
+          <div className={section1Styles.hyperlink}>About us</div>
         </Link>
         <Link className={section1Styles.links1} to="/blog">
-          <div className={section1Styles.hyperlink}>Engaging</div>
+          <div className={section1Styles.hyperlink}>Blog</div>
         </Link>
         <button className={section1Styles.btn}>
           <Link className={section1Styles.links2} to="/admin-login">

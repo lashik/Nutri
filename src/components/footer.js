@@ -23,7 +23,7 @@ function Footer() {
                   </a>
 
                <a href="tel:+919323497069">Contact no:+91 9323497069</a> 
-              <CustomLink to="/aboutme">About us</CustomLink>
+              <CustomLink to="/aboutme">Testimonials</CustomLink>
             </p>
           </div>
           <div>

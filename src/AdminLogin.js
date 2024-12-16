@@ -25,7 +25,7 @@ function AdminPage() {
 
   return (
     <main className={styles.main}>
-      <h1 className={styles.title}>Admin Login</h1>
+      <h1 className={styles.title}>Login</h1>
       <form className={styles.form} onSubmit={handleLogin}>
         <div className={styles.inputGroup}>
           <label htmlFor="email" className={styles.label}>
